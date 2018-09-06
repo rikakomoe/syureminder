@@ -1,0 +1,10 @@
+[Unit]
+Description=每小时检查一次“今天你 Syu 了吗”
+
+[Timer]
+OnBootSec=1h
+OnUnitActiveSec=1h
+Unit=syureminder.service   
+ 
+[Install]
+WantedBy=timers.target

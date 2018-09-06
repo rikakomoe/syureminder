@@ -1,0 +1,6 @@
+[Unit]
+Description=今天你 Syu 了吗？
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/syureminder
